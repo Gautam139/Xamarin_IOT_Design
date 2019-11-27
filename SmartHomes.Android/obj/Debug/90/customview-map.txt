@@ -1,0 +1,78 @@
+@string/appbar_scrolling_view_behavior;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\rootlayout.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
+alpha;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\anim\enterfromleft.xml
+alpha;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\anim\exittoleft.xml
+android.support.design.widget.AppBarLayout;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.AppBarLayout;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\rootlayout.xml
+android.support.design.widget.AppBarLayout;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\shellcontent.xml
+android.support.design.widget.BottomNavigationView;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\bottomtablayout.xml
+android.support.design.widget.CoordinatorLayout;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\rootlayout.xml
+android.support.design.widget.CoordinatorLayout;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\shellcontent.xml
+android.support.design.widget.TabLayout;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\rootlayout.xml
+android.support.design.widget.TabLayout;obj\Debug\90\res\layout\tabbar.xml
+android.support.v7.widget.RecyclerView;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\flyoutcontent.xml
+android.support.v7.widget.Toolbar;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\rootlayout.xml
+android.support.v7.widget.Toolbar;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\shellcontent.xml
+android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
+attr;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
+cache-path;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\90\res\values\colors.xml
+Com.Syncfusion.Gauges.SfDigitalGauge.EightCrossEightDotMatrix;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\layout\digitalgauge_layout.xml
+Com.Syncfusion.Gauges.SfDigitalGauge.FourteenSegmentHelper;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\layout\digitalgauge_layout.xml
+Com.Syncfusion.Gauges.SfDigitalGauge.SevenSegmentHelper;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\layout\digitalgauge_layout.xml
+Com.Syncfusion.Gauges.SfDigitalGauge.SixteenSegmentHelper;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\layout\digitalgauge_layout.xml
+declare-styleable;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+dimen;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\values\dimens.xml
+enum;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+external-cache-path;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
+FrameLayout;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\layout\circulargauge_layout.xml
+FrameLayout;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\layout\digitalgauge_layout.xml
+FrameLayout;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\bottomtablayout.xml
+item;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\values\styles.xml
+item;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_determinate_linear.xml
+item;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_indeterminate_circular.xml
+item;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_indeterminate_linear.xml
+item;obj\Debug\90\res\values\styles.xml
+layer-list;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_determinate_linear.xml
+layer-list;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_indeterminate_circular.xml
+layer-list;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_indeterminate_linear.xml
+LinearLayout;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\bottomtablayout.xml
+paths;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+resources;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\values\dimens.xml
+resources;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\values\strings.xml
+resources;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\values\styles.xml
+resources;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\values\strings.xml
+resources;obj\Debug\90\res\values\colors.xml
+resources;obj\Debug\90\res\values\styles.xml
+rotate;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_indeterminate_circular.xml
+scale;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_determinate_linear.xml
+set;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\anim\enterfromleft.xml
+set;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\anim\enterfromright.xml
+set;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\anim\exittoleft.xml
+set;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\anim\exittoright.xml
+shape;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_determinate_linear.xml
+shape;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_indeterminate_circular.xml
+shape;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_indeterminate_linear.xml
+size;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_determinate_linear.xml
+size;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_indeterminate_linear.xml
+solid;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_determinate_linear.xml
+solid;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_indeterminate_circular.xml
+solid;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\drawable\sfprogressbar_indeterminate_linear.xml
+string;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\3\jl\res\values\strings.xml
+string;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\5\jl\res\values\strings.xml
+style;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\values\styles.xml
+style;obj\Debug\90\res\values\styles.xml
+translate;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\anim\enterfromleft.xml
+translate;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\anim\enterfromright.xml
+translate;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\anim\exittoleft.xml
+translate;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;E:\mobileApp Xamarin\developement\SmartHomes\SmartHomes.Android\obj\Debug\90\lp\46\jl\res\layout\rootlayout.xml

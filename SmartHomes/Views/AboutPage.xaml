@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SmartHomes.Views.AboutPage"
+             xmlns:vm="clr-namespace:SmartHomes.ViewModels"
+             xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms">
+        
+        <ContentPage.BindingContext>
+            <vm:AboutViewModel />
+        </ContentPage.BindingContext>
+        
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="Hello" Order="Primary" IconImageSource="toolbarIcon.png" Clicked="showPopUp"/>
+        </ContentPage.ToolbarItems>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="switchLabelStyle" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="Subtitle"/>
+                <Setter Property="TextColor" Value="#fff"/>
+            </Style>
+            <Style x:Key="TileLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="Medium"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0"
+                      Margin="15,0,0,0" 
+                      Padding="15,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Column="0">
+                    <Label Text="Welcome Back" TextColor="Gray" FontSize="18" FontAttributes="Bold" Margin="0"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Roman" FontAttributes="Bold" TextColor="#333" FontSize="38" />
+                        <Label Text="Cpt." TextColor="#333" FontSize="38" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Grid.Column="1">
+                    <Frame WidthRequest="65" HeightRequest="65" CornerRadius="100" IsClippedToBounds="True" HorizontalOptions="Center" Padding="0" Margin="35,15,0,0">
+                        <Image Source="saba.jpg" />
+                    </Frame>
+                </StackLayout>
+            </Grid>
+            <BoxView WidthRequest="50" HeightRequest="5" BackgroundColor="LightGray" CornerRadius="10" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,135,0,0"/>
+            <Grid Grid.Row="1">
+                    <tabView:SfTabView BackgroundColor="Transparent">
+                        <tabView:SfTabView.SelectionIndicatorSettings>
+                            <tabView:SelectionIndicatorSettings
+                            Color="#fb6b21 " 
+                            Position="Bottom"
+                            StrokeThickness="7"/>
+                        </tabView:SfTabView.SelectionIndicatorSettings>
+                        <tabView:SfTabItem Title="Bedroom" TitleFontSize="20" tabView:SelectionColor="Black" TitleFontColor="Gray" TitleFontAttributes="Bold">
+                            <tabView:SfTabItem.Content>
+                                <ScrollView>
+                                    <Grid  x:Name="BedroomGrid" Padding="25">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <StackLayout Grid.Column="0">
+                                            <!--Side lamp-->
+                                            <Frame BackgroundColor="#6fdec8" CornerRadius="13">
+                                                <StackLayout>
+                                                    <Grid>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                        </Grid.ColumnDefinitions>
+                                                        <StackLayout Grid.Column="0" Grid.Row="0">
+                                                            <FlexLayout JustifyContent="Start">
+                                                                <Label Text="Switch" Style="{StaticResource switchLabelStyle}"/>
+                                                            </FlexLayout>
+                                                        </StackLayout>
+                                                        <StackLayout Grid.Column="1" Grid.Row="0">
+                                                            <FlexLayout JustifyContent="End">
+                                                                <Switch IsToggled="{Binding Status}" OnColor="#fff" ThumbColor="#6fdec8"/>
+                                                            </FlexLayout>
+                                                        </StackLayout>
+                                                    </Grid>
+                                                    <StackLayout Margin="0,15,0,0">
+                                                        <Grid>
+                                                            <StackLayout>
+                                                                <FlexLayout JustifyContent="Center">
+                                                                    <Image HeightRequest="50" Source="AC.png"/>
+                                                                </FlexLayout>
+                                                                <FlexLayout JustifyContent="Center" Margin="0,5,0,0">
+                                                                    <Label Text="Side Lamp" Style="{StaticResource TileLabelStyle}"/>
+                                                                </FlexLayout>
+                                                                <FlexLayout JustifyContent="Center">
+                                                                    <Label Text="{Binding MsgAc}" Style="{StaticResource TileLabelStyle}"/>
+                                                                </FlexLayout>
+                                                            </StackLayout>
+                                                        </Grid>
+                                                    </StackLayout>
+                                                </StackLayout>
+                                            </Frame>
+                                            <!--Music Mania-->
+                                            <Frame BackgroundColor="#a5a0e6"  CornerRadius="13">
+                                                <StackLayout>
+                                                    <Grid>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                        </Grid.ColumnDefinitions>
+                                                        <StackLayout Grid.Column="0" Grid.Row="0">
+                                                            <FlexLayout JustifyContent="Start">
+                                                            <Label Text="Switch" Style="{StaticResource switchLabelStyle}"/>
+                                                            </FlexLayout>
+                                                        </StackLayout>
+                                                        <StackLayout Grid.Column="1" Grid.Row="0">
+                                                            <FlexLayout JustifyContent="End">
+                                                                <Switch IsToggled="true" OnColor="#fff" ThumbColor="#a5a0e6"/>
+                                                            </FlexLayout>
+                                                        </StackLayout>
+                                                    </Grid>
+                                                    <StackLayout Margin="0,15,0,0">
+                                                        <Grid>
+                                                            <StackLayout>
+                                                                <FlexLayout JustifyContent="Center">
+                                                                    <Image HeightRequest="50" Source="CDwhite.png"/>
+                                                                </FlexLayout>
+                                                                <FlexLayout JustifyContent="Center" Margin="0,5,0,0">
+                                                                    <Label Text="Music Mania" Style="{StaticResource TileLabelStyle}"/>
+                                                                </FlexLayout>
+                                                                <FlexLayout JustifyContent="Center">
+                                                                    <Label Text="(ON)" Style="{StaticResource TileLabelStyle}"/>
+                                                                </FlexLayout>
+                                                            </StackLayout>
+                                                        </Grid>
+                                                    </StackLayout>
+                                                </StackLayout>
+                                            </Frame>
+                                        </StackLayout >
+                                        <StackLayout Grid.Column="1">
+                                            <!--Refrigerator-->
+                                            <Frame BackgroundColor="#94d1e6"  CornerRadius="13">
+                                                <StackLayout>
+                                                    <Grid>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                        </Grid.ColumnDefinitions>
+                                                        <StackLayout Grid.Column="0" Grid.Row="0">
+                                                            <FlexLayout JustifyContent="Start">
+                                                                <Label Text="Switch" Style="{StaticResource switchLabelStyle}"/>
+                                                            </FlexLayout>
+                                                        </StackLayout>
+                                                        <StackLayout Grid.Column="1" Grid.Row="0">
+                                                            <FlexLayout JustifyContent="End">
+                                                                <Switch IsToggled="true" OnColor="#fff" ThumbColor="#94d1e6"/>
+                                                            </FlexLayout>
+                                                        </StackLayout>
+                                                    </Grid>
+                                                    <StackLayout Margin="0,15,0,0">
+                                                        <Grid>
+                                                            <StackLayout>
+                                                                <FlexLayout JustifyContent="Center">
+                                                                    <Image HeightRequest="50" Source="fridge.png"/>
+                                                                </FlexLayout>
+                                                                <FlexLayout JustifyContent="Center" Margin="0,5,0,0">
+                                                                    <Label Text="Refrigerator" Style="{StaticResource TileLabelStyle}"/>
+                                                                </FlexLayout>
+                                                                <FlexLayout JustifyContent="Center">
+                                                                    <Label Text="(ON)" Style="{StaticResource TileLabelStyle}"/>
+                                                                </FlexLayout>
+                                                            </StackLayout>
+                                                        </Grid>
+                                                    </StackLayout>
+                                                </StackLayout>
+                                            </Frame>
+                                            <!--Main Light-->
+                                            <Frame BackgroundColor="#f88f59"  CornerRadius="13">
+                                                <StackLayout>
+                                                    <Grid>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                        </Grid.ColumnDefinitions>
+                                                        <StackLayout Grid.Column="0" Grid.Row="0">
+                                                            <FlexLayout JustifyContent="Start">
+                                                            <Label Text="Switch" Style="{StaticResource switchLabelStyle}"/>
+                                                            </FlexLayout>
+                                                        </StackLayout>
+                                                        <StackLayout Grid.Column="1" Grid.Row="0">
+                                                            <FlexLayout JustifyContent="End">
+                                                                <Switch IsToggled="true" OnColor="#fff" ThumbColor="#f88f59"/>
+                                                            </FlexLayout>
+                                                        </StackLayout>
+                                                    </Grid>
+                                                    <StackLayout Margin="0,15,0,0">
+                                                        <Grid>
+                                                            <StackLayout>
+                                                                <FlexLayout JustifyContent="Center">
+                                                                    <Image HeightRequest="50" Source="lampWhite.png"/>
+                                                                </FlexLayout>
+                                                                <FlexLayout JustifyContent="Center" Margin="0,5,0,0">
+                                                                    <Label Text="Main Light" Style="{StaticResource TileLabelStyle}"/>
+                                                                </FlexLayout>
+                                                                <FlexLayout JustifyContent="Center">
+                                                                    <Label Text="(ON)" Style="{StaticResource TileLabelStyle}"/>
+                                                                </FlexLayout>
+                                                            </StackLayout>
+                                                        </Grid>
+                                                    </StackLayout>
+                                                </StackLayout>
+                                            </Frame>
+                                        </StackLayout>
+                                    </Grid>
+                                </ScrollView>
+                            </tabView:SfTabItem.Content>
+                        </tabView:SfTabItem>
+                        <tabView:SfTabItem tabView:SelectionColor="Black" TitleFontColor="Gray" TitleFontAttributes="Bold" Title="Kitchen" TitleFontSize="20">
+                            <tabView:SfTabItem.Content>
+                                <Grid BackgroundColor="Green" x:Name="KitchenGrid" />
+                            </tabView:SfTabItem.Content>
+                        </tabView:SfTabItem>
+                        <tabView:SfTabItem Title="Dinning" TitleFontSize="20" tabView:SelectionColor="Black" TitleFontColor="Gray" TitleFontAttributes="Bold">
+                            <tabView:SfTabItem.Content>
+                                <Grid BackgroundColor="Blue" x:Name="DinningGrid" />
+                            </tabView:SfTabItem.Content>
+                        </tabView:SfTabItem>
+                        <tabView:SfTabItem Title="Living" TitleFontSize="20" tabView:SelectionColor="Black" TitleFontColor="Gray" TitleFontAttributes="Bold">
+                            <tabView:SfTabItem.Content>
+                                <Grid BackgroundColor="Blue" x:Name="LivingGrid" />
+                            </tabView:SfTabItem.Content>
+                        </tabView:SfTabItem>
+                </tabView:SfTabView>
+            </Grid>
+        </Grid>
+    </ContentPage>
